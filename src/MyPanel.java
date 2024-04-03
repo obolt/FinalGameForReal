@@ -6,23 +6,28 @@ import java.awt.*;
 
 public class MyPanel extends JPanel {
 
-    int xLoc = 200;
-    int yLoc = 300;
+    int xLoc = 500;
+    int yLoc = 500;
 
-    int xVel = 10;
+//    int xVel = 10;
     public MyPanel(){
 
-       // setBackground(Color.GREEN);
+        setBackground(new Color(255, 204, 153));
+        // HYPOTHETICAL Ball[] set = new Ball[20];
+        //
     }
+// LOOK LOOK LOOK MAYBE READD
+//    @Override
+//    public void paintComponent(Graphics g){
+//        super.paintComponent(g);
+////        System.out.println("Hi!");
+//        g.fillOval(20,30,5,8);
+//        g.fillOval(400, 400, 5, 8);
+//        g.setColor(Color.RED);
+//        g.fillOval(xLoc, yLoc, 20, 20);
+//
 
-    @Override
-    public void paintComponent(Graphics g){
-        super.paintComponent(g);
-//        System.out.println("Hi!");
-        g.fillOval(20,30,5,8);
-        g.fillOval(400, 400, 5, 8);
-        g.setColor(Color.RED);
-        g.fillOval(xLoc, yLoc, 20, 20);
+
 ////        xLoc +=2;
 //        xLoc += xVel;
 //        //yLoc -=4;
@@ -34,19 +39,19 @@ public class MyPanel extends JPanel {
 //            xVel = xVel*-1;
 //        }
 
-
-        g.setColor(Color.blue);
-        g.drawString("Hello World", 0, 50);
-        JButton button = new JButton();
-        button.setIcon(new ImageIcon(circle.png));
-        try {
-            Thread.sleep(100);
-        }
-        catch(Exception e){
-            System.out.println(e);
-        }
-        repaint();
+//
+//        g.setColor(Color.blue);
+//        g.drawString("Hello World", 0, 50);
+//        JButton button = new JButton();
+//       // button.setIcon(new ImageIcon(circle.png));
+//        try {
+//            Thread.sleep(100);
+//        }
+//        catch(Exception e){
+//            System.out.println(e);
+//        }
+//        repaint();
     }
 
 
-}
+//}

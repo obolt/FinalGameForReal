@@ -1,12 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 
-import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
+//import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
 
 // hello?? import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
 
-public class ball extends JPanel {
+public class Ball extends JPanel {
    private int xLoc;
    private int yLoc;
     @Override
@@ -32,7 +31,7 @@ public class ball extends JPanel {
         g.setColor(Color.blue);
         g.drawString("Hello World", 0, 50);
         JButton button = new JButton();
-        button.setIcon(new ImageIcon(circle.jpeg));
+        //button.setIcon(new ImageIcon(circle.jpeg));
         try {
             Thread.sleep(100);
         }
