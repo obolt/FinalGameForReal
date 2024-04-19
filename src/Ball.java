@@ -6,8 +6,7 @@ import java.awt.*;
 // hello?? import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
 
 public class Ball extends JPanel {
-   private int xLoc;
-   private int yLoc;
+   private int xLoc, yLoc, xSpeed, ySpeed;
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);

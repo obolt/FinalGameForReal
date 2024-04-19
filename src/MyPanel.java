@@ -13,8 +13,10 @@ public class MyPanel extends JPanel {
     public MyPanel(){
 
         setBackground(new Color(255, 204, 153));
-        // HYPOTHETICAL Ball[] set = new Ball[20];
-        //
+        // HYPOTHETICAL
+        // Ball[] set = new Ball[20];
+        // ARRAYLIST
+        // 
     }
 // LOOK LOOK LOOK MAYBE READD
 //    @Override
