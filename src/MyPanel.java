@@ -1,22 +1,28 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.*;
 
 // import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
 // ^where did that come from
 
 public class MyPanel extends JPanel {
-
-    int xLoc = 500;
-    int yLoc = 500;
+private int count = 0;
+   private int xLoc = 500;
+   private int yLoc = 500;
+//    private ArrayList<Color> colors = new ArrayList<Color>();
+//    colors.add(Color.red);
 
 //    int xVel = 10;
     public MyPanel(){
 
         setBackground(new Color(255, 204, 153));
+        ArrayList<Ball> ballList = new ArrayList <Ball>(20);
+//ballList.add(new Ball );
+
         // HYPOTHETICAL
         // Ball[] set = new Ball[20];
         // ARRAYLIST
-        // 
+        //
     }
 // LOOK LOOK LOOK MAYBE READD
 //    @Override

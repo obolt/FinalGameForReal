@@ -6,7 +6,14 @@ import java.awt.*;
 // hello?? import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.circle;
 
 public class Ball extends JPanel {
-   private int xLoc, yLoc, xSpeed, ySpeed;
+   private int xLoc, yLoc, xSpeed, ySpeed, size;
+   private Color white = new Color(255,255,255);
+
+
+   public Ball(Color colored){
+       white = colored;
+     size = (int) (Math.random()*80 + 20); //random num btwn 20-100
+   }
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
@@ -28,7 +35,7 @@ public class Ball extends JPanel {
 
 
         g.setColor(Color.blue);
-        g.drawString("Hello World", 0, 50);
+       // g.drawString("Hello World", 0, 50);
         JButton button = new JButton();
         //button.setIcon(new ImageIcon(circle.jpeg));
         try {

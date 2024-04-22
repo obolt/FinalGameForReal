@@ -11,7 +11,7 @@ public class Main {
         frame.add(panel);
 
         frame.setVisible(true);
-
+// SJHFAKSJHCKJDSHCKJSDCKJSDNCJKSDC Ball ball = new Ball();
 
 
     }
