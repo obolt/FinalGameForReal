@@ -18,9 +18,10 @@ private int count = 0;
         setBackground(new Color(255, 204, 153));
         ArrayList<Ball> ballList = new ArrayList <Ball>(20);
         for(int i = 0; i <20; i++) {
-            Color colored = new Color((int)Math.random(), (int)Math.random(), (int)Math.random());
-            ballList.add(new Ball(colored));
+            ballList.add(new Ball());
         }
+
+
 //ballList.add(new Ball );
 
         // HYPOTHETICAL
