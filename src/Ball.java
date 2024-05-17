@@ -46,11 +46,11 @@ public class Ball extends JPanel {
             // y = size;
             x += 3 * xVel;
             y += 3 * yVel;
-            int xrand = (int) (Math.random() * p + xVel);
-            int yrand = (int) (Math.random() * p + yVel);
+            int xRand = (int) (Math.random() * p + xVel);
+            int yRand = (int) (Math.random() * p + yVel);
 
-            xVel = xrand;
-            yVel = yrand;
+            xVel = xRand;
+            yVel = yRand;
 
         }
         draw(g);

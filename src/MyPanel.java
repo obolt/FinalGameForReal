@@ -21,10 +21,10 @@ private int count = 0;
 
 
 
-        ArrayList<Ball> ballList = new ArrayList <Ball>(20);
-        for(int i = 0; i <20; i++) {
-            ballList.add(new Ball());
-        }
+//        ArrayList<Ball> ballList = new ArrayList <Ball>(20);
+//        for(int i = 0; i <20; i++) {
+//            ballList.add(new Ball());
+//        }
 
 //        for(int i = 0; i<20; i++){
 //            ballList.get(i).move(panel, g);

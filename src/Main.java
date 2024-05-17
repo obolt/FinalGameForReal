@@ -10,7 +10,7 @@ public class Main {
 
         frame.add(panel);
 
-
+        ImageIcon icon = new ImageIcon("images/circle.jpeg");
 
         frame.setVisible(true);
 // SJHFAKSJHCKJDSHCKJSDCKJSDNCJKSDC Ball ball = new Ball();
