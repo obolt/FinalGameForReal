@@ -16,10 +16,19 @@ private int count = 0;
     public MyPanel(){
 
         setBackground(new Color(255, 204, 153));
+
+
+
+
+
         ArrayList<Ball> ballList = new ArrayList <Ball>(20);
         for(int i = 0; i <20; i++) {
             ballList.add(new Ball());
         }
+
+//        for(int i = 0; i<20; i++){
+//            ballList.get(i).move(panel, g);
+//        }
 
 
 //ballList.add(new Ball );
